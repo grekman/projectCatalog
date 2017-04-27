@@ -75,13 +75,14 @@ img {
 }
 
 .inner-wraper {
-  width: 1472px;
+  width: 1800px;
   height: 490px;
   /*margin-top: 20px;*/
   /*margin-left: 20px;*/
   /*border: solid 1px lightgrey;*/
   overflow: hidden;
   position: relative;
+  transition: all ease 1s;
 }
 
 

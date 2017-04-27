@@ -10,13 +10,13 @@
 
     <div class="wraper slider">
       <h1>Обязательно добавьте свой заказ</h1>
-      <button class="arrow left" type="button" >
+      <button onclick="f1()" class="arrow left" type="button" >
         <img src="img/arrow-left.png" alt="arrow left">
       </button>
-      <button class="arrow right" type="arrow right">
+      <button  onclick="f2()" class="arrow right" type="arrow right">
         <img src="img/arrow-right.png" alt="">
       </button>
-      <div class="inner-wraper">
+      <div class="inner-wraper"  id="line">
         <div class="middle-wraper">
 
           <div class="card">
@@ -26,17 +26,14 @@
             <div class=photo>
               <img src="img/math.png" alt="Котосовы">
             </div>
-              <h3 class="name">Котосовы</h3>
-              <p class="price no-price" >110 грн</p>
-              <button class="btn soon" type="button" name="button">Скоро в продаже</button>
-              <div class="new">
-                <p>Новинка</p>
-              </div>
-
-            <div>
-
+            <h3 class="name">Котосовы</h3>
+            <p class="price no-price" >110 грн</p>
+            <button class="btn soon" type="button" name="button">Скоро в продаже</button>
+            <div class="new">
+              <p>Новинка</p>
             </div>
           </div>
+
           <div class="card">
             <div class="category">
               <h3 class=category-name>Подарок</h3>
@@ -44,15 +41,11 @@
             <div class=photo>
               <img src="img/g1.png" alt="Набор умника">
             </div>
-              <h3 class="name">Набор умника</h3>
-              <p class="price"><span class="old-price">250 грн</span>190 грн</p>
-              <button class="btn" type="button" name="button">В корзину</button>
-
-
-            <div>
-
-            </div>
+            <h3 class="name">Набор умника</h3>
+            <p class="price"><span class="old-price">250 грн</span>190 грн</p>
+            <button class="btn" type="button" name="button">В корзину</button>
           </div>
+
           <div class="card">
             <div class="category">
               <h3 class=category-name>Устный счет</h3>
@@ -66,10 +59,8 @@
               <div class="top-sale">
                 <p>Хит продаж</p>
               </div>
-            <div>
-
-            </div>
           </div>
+
           <div class="card">
             <div class="category">
               <h3 class=category-name>Буквы и чтение</h3>
@@ -83,11 +74,8 @@
               <div class="top-sale">
                 <p>Хит продаж</p>
               </div>
-            </div>
-            <div>
-
-            </div>
           </div>
+
           <div class="card">
             <div class="category">
               <h3 class=category-name>Математика2</h3>
@@ -99,22 +87,47 @@
               <p class="price"> 110 грн</p>
               <button class="btn" type="button" name="button">В корзину</button>
             </div>
-            <div>
+
+            <div class="card">
+              <div class="category">
+                <h3 class=category-name>Буквы и чтение</h3>
+              </div>
+              <div class=photo>
+                <img src="img/zb.png" alt="Зверобуквы">
+              </div>
+                <h3 class="name">Зверобуквы</h3>
+                <p class="price">450 грн</p>
+                <button class="btn" type="button" name="button">В корзину</button>
+                <div class="top-sale">
+                  <p>Хит продаж</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="category">
+                  <h3 class=category-name>Устный счет</h3>
+                </div>
+                <div class=photo>
+                  <img src="img/tc.png" alt="Турбосчет">
+                </div>
+                  <h3 class="name">Турбосчет</h3>
+                  <p class="price">320 грн</p>
+                  <button class="btn" type="button" name="button">В корзину</button>
+                  <div class="top-sale">
+                    <p>Хит продаж</p>
+                  </div>
+
+              </div>
 
             </div>
+
+
+
+
           </div>
-       </div>
-
-
-      </div>
-
-
-
-
 
 
     </div>
-
-
+    <script src=js/js01.js></script>
   </body>
 </html>
